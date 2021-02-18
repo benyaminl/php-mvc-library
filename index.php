@@ -1,6 +1,8 @@
 <?php
 
 include_once "system/load.php";
+// Load the Config
+include_once "config.php";
 
 use system\Route;
 

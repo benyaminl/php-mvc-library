@@ -3,9 +3,11 @@
 namespace controller;
 
 class CobaController {
-    public int $abc = 0;
+    public $abc = 0;
 
     public function test($a) {
+        \var_dump($a);
         echo "HALO $a";
+        echo \htmlspecialchars("<div></div>");
     }
 }
